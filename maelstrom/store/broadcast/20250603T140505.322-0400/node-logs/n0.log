@@ -1,0 +1,8 @@
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x48 pc=0x102feb958]
+
+goroutine 1 [running]:
+github.com/jepsen-io/maelstrom/demo/go.(*Node).Handle(0x0, {0x102feeabd, 0x4}, 0x10304b4c0)
+	/Users/anandtrehan/go/pkg/mod/github.com/jepsen-io/maelstrom/demo/go@v0.0.0-20250204203845-8263d1dd2b7a/node.go:68 +0x28
+main.main()
+	/Users/anandtrehan/flyio_challenges/maelstrom-broadcast/main.go:48 +0x38

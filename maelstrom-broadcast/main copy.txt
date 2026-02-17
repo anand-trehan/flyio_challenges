@@ -1,0 +1,281 @@
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+	"log"
+	"sync"
+	"sync/atomic"
+	"time"
+
+	maelstrom "github.com/jepsen-io/maelstrom/demo/go"
+)
+
+var cnt int64
+
+type msg_arr struct {
+	mtx   sync.RWMutex
+	msgs  []float64
+	msgs1 map[float64]struct{}
+}
+
+type neighbour_struct struct {
+	neighbours     []string
+	neighbours_mtx sync.RWMutex
+}
+
+type broadcast_q struct {
+	broadcast_queue map[string][]float64
+	bq_lock         sync.RWMutex
+	topReady        sync.WaitGroup
+}
+
+type topology_body struct {
+	Type     string              `json:"type"`
+	Topo_map map[string][]string `json:"topology"`
+	ID       float64             `json:"msg_id"`
+}
+
+var (
+	n       = maelstrom.NewNode()
+	storage = msg_arr{
+		msgs:  make([]float64, 0),
+		msgs1: make(map[float64]struct{}),
+	}
+	neighbours = neighbour_struct{
+		neighbours: make([]string, 0),
+	}
+	broadcast_queue = broadcast_q{
+		broadcast_queue: make(map[string][]float64),
+	}
+)
+
+func main() {
+	broadcast_queue.topReady.Add(1)
+	n.Handle("echo", handleEcho)
+	n.Handle("generate", handleGenerate)
+	n.Handle("broadcast", handleBroadcast)
+	n.Handle("topology", handleTopology)
+	n.Handle("read", handleRead)
+	batchFrequency := 400 * time.Millisecond
+	go func() {
+		for {
+			select {
+			case <-time.After(batchFrequency):
+				periodic_batch_broadcast()
+			}
+		}
+	}()
+
+	if err := n.Run(); err != nil {
+		log.Fatal(err)
+	}
+
+}
+
+func (msgarr *msg_arr) add_msg(str float64) bool {
+	msgarr.mtx.Lock()
+	defer msgarr.mtx.Unlock()
+
+	// Check if message already exists
+	if _, exists := msgarr.msgs1[str]; exists {
+		return false // Message already exists
+	}
+
+	// Add to both structures atomically
+	msgarr.msgs = append(msgarr.msgs, str)
+	msgarr.msgs1[str] = struct{}{}
+	return true // New message added
+}
+
+func (msgarr *msg_arr) read_all() []float64 {
+	msgarr.mtx.RLock()
+	defer msgarr.mtx.RUnlock()
+	copyOfItems := make([]float64, len(msgarr.msgs))
+	copy(copyOfItems, msgarr.msgs)
+	return copyOfItems
+}
+
+func handleEcho(msg maelstrom.Message) error {
+	// Unmarshal the message body as an loosely-typed map.
+	var body map[string]any
+	if err := json.Unmarshal(msg.Body, &body); err != nil {
+		return err
+	}
+
+	// Update the message type to return back.
+	body["type"] = "echo_ok"
+	body["in_reply_to"] = body["msg_id"]
+
+	// Echo the original message back with the updated message type.
+	return n.Reply(msg, body)
+}
+
+func handleGenerate(msg maelstrom.Message) error {
+	// Unmarshal the message body as an loosely-typed map.
+	var body map[string]any
+	if err := json.Unmarshal(msg.Body, &body); err != nil {
+		return err
+	}
+
+	// Update the message type to return back.
+	body["type"] = "generate_ok"
+	body["in_reply_to"] = body["msg_id"]
+	cnt1 := atomic.AddInt64(&cnt, 1)
+	// n.ID()
+	id := fmt.Sprintf("%s-%d", n.ID(), cnt1)
+	body["id"] = id
+	// Echo the original message back with the updated message type.
+	return n.Reply(msg, body)
+}
+
+func handleBroadcast(msg maelstrom.Message) error {
+	// Unmarshal the message body as an loosely-typed map.
+	var body map[string]any
+	if err := json.Unmarshal(msg.Body, &body); err != nil {
+		return err
+	}
+	resp_body := make(map[string]any, 1)
+	resp_body["type"] = "broadcast_ok"
+	// if err := n.Reply(msg, resp_body); err != nil {
+	// 	return err
+	// }
+	broadcast_queue.topReady.Wait()
+	if _, has := body["message"]; has {
+		message_recv := body["message"].(float64)
+		if storage.add_msg(message_recv) {
+			// add to broadcast map
+			broadcast_queue.bq_lock.Lock()
+			for nod, list := range broadcast_queue.broadcast_queue {
+				list = append(list, message_recv)
+				broadcast_queue.broadcast_queue[nod] = list
+				//go broadcastToNeighbour(nod, []float64{message_recv})
+			}
+			broadcast_queue.bq_lock.Unlock()
+		}
+		if err := n.Reply(msg, resp_body); err != nil {
+			return err
+		}
+		return nil
+	}
+
+	if _, has := body["messages"]; has {
+		messages_recv := body["messages"].([]any)
+
+		// add to broadcast map
+		msgs_to_brd := make([]float64, 0)
+		for _, msg := range messages_recv {
+			v := msg.(float64)
+			if storage.add_msg(v) {
+				msgs_to_brd = append(msgs_to_brd, v)
+			}
+		}
+		broadcast_queue.bq_lock.Lock()
+		for nod, list := range broadcast_queue.broadcast_queue {
+			list = append(list, msgs_to_brd...)
+			broadcast_queue.broadcast_queue[nod] = list
+		}
+		broadcast_queue.bq_lock.Unlock()
+		if err := n.Reply(msg, resp_body); err != nil {
+			return err
+		}
+		return nil
+	}
+	return nil
+}
+
+func handleRead(msg maelstrom.Message) error {
+	// Unmarshal the message body as an loosely-typed map.
+	var body map[string]any
+	if err := json.Unmarshal(msg.Body, &body); err != nil {
+		return err
+	}
+	// Update the message type to return back.
+	resp_body := make(map[string]any, 3)
+	resp_body["type"] = "read_ok"
+	// store in message array
+	resp_body["in_reply_to"] = body["msg_id"]
+	resp_body["messages"] = storage.read_all()
+	// Echo the original message back with the updated message type.
+	return n.Reply(msg, resp_body)
+}
+
+func handleTopology(msg maelstrom.Message) error {
+	// Unmarshal the message body as an loosely-typed map.
+	var body topology_body
+	if err := json.Unmarshal(msg.Body, &body); err != nil {
+		return err
+	}
+	defer broadcast_queue.topReady.Done()
+	// Update the message type to return back.
+	resp_body := make(map[string]any, 2)
+	resp_body["type"] = "topology_ok"
+	resp_body["in_reply_to"] = body.ID
+	if err := n.Reply(msg, resp_body); err != nil {
+		return err
+	}
+	neighbours.neighbours_mtx.Lock()
+	defer neighbours.neighbours_mtx.Unlock()
+	for _, id := range body.Topo_map[n.ID()] {
+		if id == n.ID() {
+			// continue
+		}
+		neighbours.neighbours = append(neighbours.neighbours, id)
+		broadcast_queue.broadcast_queue[id] = make([]float64, 0)
+	}
+
+	// Echo the original message back with the updated message type.
+	return nil
+}
+
+func periodic_batch_broadcast() {
+	broadcast_queue.bq_lock.RLock()
+	copyQueue := make(map[string][]float64, len(broadcast_queue.broadcast_queue))
+	for node, messages := range broadcast_queue.broadcast_queue {
+		copied := make([]float64, len(messages))
+		copy(copied, messages)
+		copyQueue[node] = copied
+		//broadcast_queue.broadcast_queue[node] = make([]float64, 0)
+	}
+	broadcast_queue.bq_lock.RUnlock()
+	// broadcast_queue.bq_lock.Lock()
+	// old := broadcast_queue.broadcast_queue
+	// broadcast_queue.broadcast_queue = make(map[string][]float64)
+	// broadcast_queue.bq_lock.Unlock()
+	for node, messages := range copyQueue {
+		go broadcastToNeighbour(node, messages)
+	}
+}
+
+func broadcastToNeighbour(nodeID string, data []float64) {
+	if len(data) == 0 {
+		return
+	}
+	broadcast_body := map[string]any{
+		"type":     "broadcast",
+		"messages": data,
+	}
+
+	// Retry with exponential backoff
+	maxRetries := 5
+	baseDelay := 100 * time.Millisecond
+
+	for attempt := 0; attempt < maxRetries; attempt++ {
+		err := n.RPC(nodeID, broadcast_body, func(msg maelstrom.Message) error {
+			return nil
+		})
+		if err == nil {
+			return // Success
+		}
+
+		//Exponential backoff
+		delay := baseDelay * time.Duration(1<<uint(attempt))
+		if delay > 5*time.Second {
+			delay = 5 * time.Second
+		}
+		time.Sleep(delay)
+	}
+
+	// If we get here, all retries failed - log but don't crash
+	//fmt.Printf("Failed to broadcast message to %s after %d retries\n", nodeID, maxRetries)
+}

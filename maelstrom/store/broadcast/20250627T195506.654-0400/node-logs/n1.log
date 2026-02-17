@@ -1,0 +1,165 @@
+2025/06/27 19:55:08 Received {c3 n1 {"type":"init","node_id":"n1","node_ids":["n0","n1","n2","n3","n4"],"msg_id":1}}
+2025/06/27 19:55:08 Node n1 initialized
+2025/06/27 19:55:08 Sent {"src":"n1","dest":"c3","body":{"in_reply_to":1,"type":"init_ok"}}
+2025/06/27 19:55:08 Received {c6 n1 {"type":"topology","topology":{"n0":["n3","n1"],"n1":["n4","n2","n0"],"n2":["n1"],"n3":["n0","n4"],"n4":["n1","n3"]},"msg_id":1}}
+2025/06/27 19:55:08 Sent {"src":"n1","dest":"c6","body":{"in_reply_to":1,"type":"topology_ok"}}
+2025/06/27 19:55:08 Received {c10 n1 {"type":"broadcast","message":0,"msg_id":1}}
+2025/06/27 19:55:08 Sent {"src":"n1","dest":"c10","body":{"in_reply_to":1,"type":"broadcast_ok"}}
+2025/06/27 19:55:08 Sent {"src":"n1","dest":"n4","body":{"message":0,"msg_id":2,"type":"broadcast"}}
+2025/06/27 19:55:08 Sent {"src":"n1","dest":"n0","body":{"message":0,"msg_id":1,"type":"broadcast"}}
+2025/06/27 19:55:08 Sent {"src":"n1","dest":"n2","body":{"message":0,"msg_id":3,"type":"broadcast"}}
+2025/06/27 19:55:08 Received {n2 n1 {"in_reply_to":3,"type":"broadcast_ok"}}
+2025/06/27 19:55:08 Received {n2 n1 {"message":0,"msg_id":1,"type":"broadcast"}}
+2025/06/27 19:55:08 Sent {"src":"n1","dest":"n2","body":{"in_reply_to":1,"type":"broadcast_ok"}}
+2025/06/27 19:55:08 Received {n2 n1 {"message":1,"msg_id":2,"type":"broadcast"}}
+2025/06/27 19:55:08 Sent {"src":"n1","dest":"n2","body":{"in_reply_to":2,"type":"broadcast_ok"}}
+2025/06/27 19:55:08 Sent {"src":"n1","dest":"n0","body":{"message":1,"msg_id":4,"type":"broadcast"}}
+2025/06/27 19:55:08 Sent {"src":"n1","dest":"n4","body":{"message":1,"msg_id":5,"type":"broadcast"}}
+2025/06/27 19:55:08 Sent {"src":"n1","dest":"n2","body":{"message":1,"msg_id":6,"type":"broadcast"}}
+2025/06/27 19:55:08 Received {n2 n1 {"in_reply_to":6,"type":"broadcast_ok"}}
+2025/06/27 19:55:08 Received {c10 n1 {"type":"broadcast","message":5,"msg_id":2}}
+2025/06/27 19:55:08 Sent {"src":"n1","dest":"n4","body":{"message":5,"msg_id":7,"type":"broadcast"}}
+2025/06/27 19:55:08 Sent {"src":"n1","dest":"c10","body":{"in_reply_to":2,"type":"broadcast_ok"}}
+2025/06/27 19:55:08 Sent {"src":"n1","dest":"n0","body":{"message":5,"msg_id":8,"type":"broadcast"}}
+2025/06/27 19:55:08 Sent {"src":"n1","dest":"n2","body":{"message":5,"msg_id":9,"type":"broadcast"}}
+2025/06/27 19:55:08 Received {n2 n1 {"in_reply_to":9,"type":"broadcast_ok"}}
+2025/06/27 19:55:08 Received {n2 n1 {"message":5,"msg_id":3,"type":"broadcast"}}
+2025/06/27 19:55:08 Sent {"src":"n1","dest":"n2","body":{"in_reply_to":3,"type":"broadcast_ok"}}
+2025/06/27 19:55:09 Received {c10 n1 {"type":"read","msg_id":3}}
+2025/06/27 19:55:09 Sent {"src":"n1","dest":"c10","body":{"in_reply_to":3,"messages":[0,1,5],"type":"read_ok"}}
+2025/06/27 19:55:09 Received {n2 n1 {"message":8,"msg_id":4,"type":"broadcast"}}
+2025/06/27 19:55:09 Sent {"src":"n1","dest":"n2","body":{"in_reply_to":4,"type":"broadcast_ok"}}
+2025/06/27 19:55:09 Sent {"src":"n1","dest":"n0","body":{"message":8,"msg_id":10,"type":"broadcast"}}
+2025/06/27 19:55:09 Sent {"src":"n1","dest":"n2","body":{"message":8,"msg_id":12,"type":"broadcast"}}
+2025/06/27 19:55:09 Sent {"src":"n1","dest":"n4","body":{"message":8,"msg_id":11,"type":"broadcast"}}
+2025/06/27 19:55:09 Received {n2 n1 {"in_reply_to":12,"type":"broadcast_ok"}}
+2025/06/27 19:55:09 Received {c10 n1 {"type":"read","msg_id":4}}
+2025/06/27 19:55:09 Sent {"src":"n1","dest":"c10","body":{"in_reply_to":4,"messages":[0,1,5,8],"type":"read_ok"}}
+2025/06/27 19:55:10 Received {n2 n1 {"message":11,"msg_id":5,"type":"broadcast"}}
+2025/06/27 19:55:10 Sent {"src":"n1","dest":"n2","body":{"in_reply_to":5,"type":"broadcast_ok"}}
+2025/06/27 19:55:10 Sent {"src":"n1","dest":"n0","body":{"message":11,"msg_id":13,"type":"broadcast"}}
+2025/06/27 19:55:10 Sent {"src":"n1","dest":"n4","body":{"message":11,"msg_id":14,"type":"broadcast"}}
+2025/06/27 19:55:10 Sent {"src":"n1","dest":"n2","body":{"message":11,"msg_id":15,"type":"broadcast"}}
+2025/06/27 19:55:10 Received {n2 n1 {"in_reply_to":15,"type":"broadcast_ok"}}
+2025/06/27 19:55:10 Received {c10 n1 {"type":"read","msg_id":5}}
+2025/06/27 19:55:10 Sent {"src":"n1","dest":"c10","body":{"in_reply_to":5,"messages":[0,1,5,8,11],"type":"read_ok"}}
+2025/06/27 19:55:11 Received {c10 n1 {"type":"read","msg_id":6}}
+2025/06/27 19:55:11 Sent {"src":"n1","dest":"c10","body":{"in_reply_to":6,"messages":[0,1,5,8,11],"type":"read_ok"}}
+2025/06/27 19:55:11 Received {n2 n1 {"message":16,"msg_id":6,"type":"broadcast"}}
+2025/06/27 19:55:11 Sent {"src":"n1","dest":"n2","body":{"in_reply_to":6,"type":"broadcast_ok"}}
+2025/06/27 19:55:11 Sent {"src":"n1","dest":"n0","body":{"message":16,"msg_id":17,"type":"broadcast"}}
+2025/06/27 19:55:11 Sent {"src":"n1","dest":"n4","body":{"message":16,"msg_id":16,"type":"broadcast"}}
+2025/06/27 19:55:11 Sent {"src":"n1","dest":"n2","body":{"message":16,"msg_id":18,"type":"broadcast"}}
+2025/06/27 19:55:11 Received {n2 n1 {"in_reply_to":18,"type":"broadcast_ok"}}
+2025/06/27 19:55:12 Received {c10 n1 {"type":"read","msg_id":7}}
+2025/06/27 19:55:12 Sent {"src":"n1","dest":"c10","body":{"in_reply_to":7,"messages":[0,1,5,8,11,16],"type":"read_ok"}}
+2025/06/27 19:55:12 Received {c10 n1 {"type":"read","msg_id":8}}
+2025/06/27 19:55:12 Sent {"src":"n1","dest":"c10","body":{"in_reply_to":8,"messages":[0,1,5,8,11,16],"type":"read_ok"}}
+2025/06/27 19:55:13 Received {c10 n1 {"type":"broadcast","message":21,"msg_id":9}}
+2025/06/27 19:55:13 Sent {"src":"n1","dest":"c10","body":{"in_reply_to":9,"type":"broadcast_ok"}}
+2025/06/27 19:55:13 Sent {"src":"n1","dest":"n4","body":{"message":21,"msg_id":19,"type":"broadcast"}}
+2025/06/27 19:55:13 Sent {"src":"n1","dest":"n0","body":{"message":21,"msg_id":20,"type":"broadcast"}}
+2025/06/27 19:55:13 Sent {"src":"n1","dest":"n2","body":{"message":21,"msg_id":21,"type":"broadcast"}}
+2025/06/27 19:55:13 Received {n2 n1 {"in_reply_to":21,"type":"broadcast_ok"}}
+2025/06/27 19:55:13 Received {n2 n1 {"message":21,"msg_id":7,"type":"broadcast"}}
+2025/06/27 19:55:13 Sent {"src":"n1","dest":"n2","body":{"in_reply_to":7,"type":"broadcast_ok"}}
+2025/06/27 19:55:14 Received {n2 n1 {"message":23,"msg_id":8,"type":"broadcast"}}
+2025/06/27 19:55:14 Sent {"src":"n1","dest":"n2","body":{"in_reply_to":8,"type":"broadcast_ok"}}
+2025/06/27 19:55:14 Sent {"src":"n1","dest":"n0","body":{"message":23,"msg_id":22,"type":"broadcast"}}
+2025/06/27 19:55:14 Sent {"src":"n1","dest":"n4","body":{"message":23,"msg_id":23,"type":"broadcast"}}
+2025/06/27 19:55:14 Sent {"src":"n1","dest":"n2","body":{"message":23,"msg_id":24,"type":"broadcast"}}
+2025/06/27 19:55:14 Received {n0 n1 {"in_reply_to":22,"type":"broadcast_ok"}}
+2025/06/27 19:55:14 Received {n0 n1 {"message":23,"msg_id":33,"type":"broadcast"}}
+2025/06/27 19:55:14 Sent {"src":"n1","dest":"n0","body":{"in_reply_to":33,"type":"broadcast_ok"}}
+2025/06/27 19:55:14 Received {n4 n1 {"in_reply_to":23,"type":"broadcast_ok"}}
+2025/06/27 19:55:14 Received {n2 n1 {"in_reply_to":24,"type":"broadcast_ok"}}
+2025/06/27 19:55:14 Received {n4 n1 {"message":23,"msg_id":34,"type":"broadcast"}}
+2025/06/27 19:55:14 Sent {"src":"n1","dest":"n4","body":{"in_reply_to":34,"type":"broadcast_ok"}}
+2025/06/27 19:55:14 Received {n4 n1 {"message":24,"msg_id":35,"type":"broadcast"}}
+2025/06/27 19:55:14 Sent {"src":"n1","dest":"n0","body":{"message":24,"msg_id":25,"type":"broadcast"}}
+2025/06/27 19:55:14 Sent {"src":"n1","dest":"n4","body":{"message":24,"msg_id":26,"type":"broadcast"}}
+2025/06/27 19:55:14 Sent {"src":"n1","dest":"n2","body":{"message":24,"msg_id":27,"type":"broadcast"}}
+2025/06/27 19:55:14 Sent {"src":"n1","dest":"n4","body":{"in_reply_to":35,"type":"broadcast_ok"}}
+2025/06/27 19:55:14 Received {n0 n1 {"in_reply_to":25,"type":"broadcast_ok"}}
+2025/06/27 19:55:14 Received {n0 n1 {"message":24,"msg_id":35,"type":"broadcast"}}
+2025/06/27 19:55:14 Received {n4 n1 {"in_reply_to":26,"type":"broadcast_ok"}}
+2025/06/27 19:55:14 Received {n2 n1 {"in_reply_to":27,"type":"broadcast_ok"}}
+2025/06/27 19:55:14 Received {n2 n1 {"message":24,"msg_id":9,"type":"broadcast"}}
+2025/06/27 19:55:14 Sent {"src":"n1","dest":"n0","body":{"in_reply_to":35,"type":"broadcast_ok"}}
+2025/06/27 19:55:14 Sent {"src":"n1","dest":"n2","body":{"in_reply_to":9,"type":"broadcast_ok"}}
+2025/06/27 19:55:14 Received {n0 n1 {"message":25,"msg_id":38,"type":"broadcast"}}
+2025/06/27 19:55:14 Sent {"src":"n1","dest":"n0","body":{"message":25,"msg_id":28,"type":"broadcast"}}
+2025/06/27 19:55:14 Sent {"src":"n1","dest":"n0","body":{"in_reply_to":38,"type":"broadcast_ok"}}
+2025/06/27 19:55:14 Sent {"src":"n1","dest":"n4","body":{"message":25,"msg_id":29,"type":"broadcast"}}
+2025/06/27 19:55:14 Sent {"src":"n1","dest":"n2","body":{"message":25,"msg_id":30,"type":"broadcast"}}
+2025/06/27 19:55:14 Received {n0 n1 {"in_reply_to":28,"type":"broadcast_ok"}}
+2025/06/27 19:55:14 Received {n4 n1 {"in_reply_to":29,"type":"broadcast_ok"}}
+2025/06/27 19:55:14 Received {n2 n1 {"in_reply_to":30,"type":"broadcast_ok"}}
+2025/06/27 19:55:14 Received {n4 n1 {"message":25,"msg_id":38,"type":"broadcast"}}
+2025/06/27 19:55:14 Received {n2 n1 {"message":25,"msg_id":10,"type":"broadcast"}}
+2025/06/27 19:55:14 Sent {"src":"n1","dest":"n4","body":{"in_reply_to":38,"type":"broadcast_ok"}}
+2025/06/27 19:55:14 Sent {"src":"n1","dest":"n2","body":{"in_reply_to":10,"type":"broadcast_ok"}}
+2025/06/27 19:55:14 Received {c10 n1 {"type":"read","msg_id":10}}
+2025/06/27 19:55:14 Sent {"src":"n1","dest":"c10","body":{"in_reply_to":10,"messages":[0,1,5,8,11,16,21,23,24,25],"type":"read_ok"}}
+2025/06/27 19:55:15 Received {n2 n1 {"message":26,"msg_id":11,"type":"broadcast"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n2","body":{"in_reply_to":11,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n4","body":{"message":26,"msg_id":31,"type":"broadcast"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n2","body":{"message":26,"msg_id":33,"type":"broadcast"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n0","body":{"message":26,"msg_id":32,"type":"broadcast"}}
+2025/06/27 19:55:15 Received {n4 n1 {"in_reply_to":31,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Received {n2 n1 {"in_reply_to":33,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Received {n4 n1 {"message":26,"msg_id":39,"type":"broadcast"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n4","body":{"in_reply_to":39,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Received {n0 n1 {"in_reply_to":32,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Received {n0 n1 {"message":26,"msg_id":40,"type":"broadcast"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n0","body":{"in_reply_to":40,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Received {n0 n1 {"message":27,"msg_id":42,"type":"broadcast"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n0","body":{"in_reply_to":42,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n0","body":{"message":27,"msg_id":34,"type":"broadcast"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n4","body":{"message":27,"msg_id":35,"type":"broadcast"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n2","body":{"message":27,"msg_id":36,"type":"broadcast"}}
+2025/06/27 19:55:15 Received {n0 n1 {"in_reply_to":34,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Received {n4 n1 {"in_reply_to":35,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Received {n4 n1 {"message":27,"msg_id":42,"type":"broadcast"}}
+2025/06/27 19:55:15 Received {n2 n1 {"in_reply_to":36,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Received {n2 n1 {"message":27,"msg_id":12,"type":"broadcast"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n4","body":{"in_reply_to":42,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n2","body":{"in_reply_to":12,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Received {n0 n1 {"message":28,"msg_id":44,"type":"broadcast"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n0","body":{"in_reply_to":44,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n0","body":{"message":28,"msg_id":37,"type":"broadcast"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n2","body":{"message":28,"msg_id":38,"type":"broadcast"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n4","body":{"message":28,"msg_id":39,"type":"broadcast"}}
+2025/06/27 19:55:15 Received {n0 n1 {"in_reply_to":37,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Received {n2 n1 {"in_reply_to":38,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Received {n4 n1 {"in_reply_to":39,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Received {n2 n1 {"message":28,"msg_id":13,"type":"broadcast"}}
+2025/06/27 19:55:15 Received {n4 n1 {"message":28,"msg_id":43,"type":"broadcast"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n2","body":{"in_reply_to":13,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n4","body":{"in_reply_to":43,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Received {c10 n1 {"type":"read","msg_id":11}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"c10","body":{"in_reply_to":11,"messages":[0,1,5,8,11,16,21,23,24,25,26,27,28],"type":"read_ok"}}
+2025/06/27 19:55:15 Received {n2 n1 {"message":29,"msg_id":14,"type":"broadcast"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n2","body":{"in_reply_to":14,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n2","body":{"message":29,"msg_id":41,"type":"broadcast"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n4","body":{"message":29,"msg_id":40,"type":"broadcast"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n0","body":{"message":29,"msg_id":42,"type":"broadcast"}}
+2025/06/27 19:55:15 Received {n2 n1 {"in_reply_to":41,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Received {n4 n1 {"in_reply_to":40,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Received {n4 n1 {"message":29,"msg_id":45,"type":"broadcast"}}
+2025/06/27 19:55:15 Received {n0 n1 {"in_reply_to":42,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n4","body":{"in_reply_to":45,"type":"broadcast_ok"}}
+2025/06/27 19:55:15 Received {n0 n1 {"message":29,"msg_id":45,"type":"broadcast"}}
+2025/06/27 19:55:15 Sent {"src":"n1","dest":"n0","body":{"in_reply_to":45,"type":"broadcast_ok"}}
+2025/06/27 19:55:16 Received {n0 n1 {"message":30,"msg_id":48,"type":"broadcast"}}
+2025/06/27 19:55:16 Sent {"src":"n1","dest":"n4","body":{"message":30,"msg_id":43,"type":"broadcast"}}
+2025/06/27 19:55:16 Sent {"src":"n1","dest":"n0","body":{"in_reply_to":48,"type":"broadcast_ok"}}
+2025/06/27 19:55:16 Sent {"src":"n1","dest":"n0","body":{"message":30,"msg_id":44,"type":"broadcast"}}
+2025/06/27 19:55:16 Sent {"src":"n1","dest":"n2","body":{"message":30,"msg_id":45,"type":"broadcast"}}
+2025/06/27 19:55:16 Received {n4 n1 {"in_reply_to":43,"type":"broadcast_ok"}}
+2025/06/27 19:55:16 Received {n0 n1 {"in_reply_to":44,"type":"broadcast_ok"}}
+2025/06/27 19:55:16 Received {n2 n1 {"in_reply_to":45,"type":"broadcast_ok"}}
+2025/06/27 19:55:16 Received {n2 n1 {"message":30,"msg_id":15,"type":"broadcast"}}
+2025/06/27 19:55:16 Received {n4 n1 {"message":30,"msg_id":47,"type":"broadcast"}}
+2025/06/27 19:55:16 Sent {"src":"n1","dest":"n4","body":{"in_reply_to":47,"type":"broadcast_ok"}}
+2025/06/27 19:55:16 Sent {"src":"n1","dest":"n2","body":{"in_reply_to":15,"type":"broadcast_ok"}}

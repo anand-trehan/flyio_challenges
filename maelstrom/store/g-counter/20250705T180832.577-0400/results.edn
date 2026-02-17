@@ -1,0 +1,160 @@
+{:perf {:latency-graph {:valid? true},
+        :rate-graph {:valid? true},
+        :valid? true},
+ :timeline {:valid? true},
+ :exceptions {:valid? true,
+              :exceptions ({:count 1,
+                            :class clojure.lang.ExceptionInfo,
+                            :example #jepsen.history.Op{:index 7,
+                                                        :time 39510958,
+                                                        :type :info,
+                                                        :process 2,
+                                                        :f :read,
+                                                        :value nil,
+                                                        :exception {:via [{:type clojure.lang.ExceptionInfo,
+                                                                           :message "throw+: {:type :rpc-error, :code 13, :name :crash, :definite? false, :body {:code 13, :in_reply_to 1, :text \"failed to write session: RPCError(KeyDoesNotExist, \\\"key does not exist\\\")\", :type \"error\"}}",
+                                                                           :data {:type :rpc-error,
+                                                                                  :code 13,
+                                                                                  :name :crash,
+                                                                                  :definite? false,
+                                                                                  :body {:code 13,
+                                                                                         :in_reply_to 1,
+                                                                                         :text "failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")",
+                                                                                         :type "error"}},
+                                                                           :at [slingshot.support$stack_trace
+                                                                                invoke
+                                                                                "support.clj"
+                                                                                201]}],
+                                                                    :trace [[slingshot.support$stack_trace
+                                                                             invoke
+                                                                             "support.clj"
+                                                                             201]
+                                                                            [maelstrom.client$throw_errors_BANG_
+                                                                             invokeStatic
+                                                                             "client.clj"
+                                                                             133]
+                                                                            [maelstrom.client$throw_errors_BANG_
+                                                                             invoke
+                                                                             "client.clj"
+                                                                             125]
+                                                                            [maelstrom.client$rpc_BANG_
+                                                                             invokeStatic
+                                                                             "client.clj"
+                                                                             150]
+                                                                            [maelstrom.client$rpc_BANG_
+                                                                             invoke
+                                                                             "client.clj"
+                                                                             140]
+                                                                            [maelstrom.workload.pn_counter$fn__19529$read__19530
+                                                                             invoke
+                                                                             "pn_counter.clj"
+                                                                             27]
+                                                                            [maelstrom.workload.pn_counter$fn__19529$read__19530
+                                                                             invoke
+                                                                             "pn_counter.clj"
+                                                                             27]
+                                                                            [maelstrom.workload.pn_counter$client$reify__19540
+                                                                             invoke_BANG_
+                                                                             "pn_counter.clj"
+                                                                             50]
+                                                                            [jepsen.client.Validate
+                                                                             invoke_BANG_
+                                                                             "client.clj"
+                                                                             83]
+                                                                            [jepsen.generator.interpreter.ClientWorker
+                                                                             invoke_BANG_
+                                                                             "interpreter.clj"
+                                                                             65]
+                                                                            [jepsen.generator.interpreter$spawn_worker$fn__12908$fn__12909
+                                                                             invoke
+                                                                             "interpreter.clj"
+                                                                             140]
+                                                                            [jepsen.generator.interpreter$spawn_worker$fn__12908
+                                                                             invoke
+                                                                             "interpreter.clj"
+                                                                             123]
+                                                                            [clojure.core$binding_conveyor_fn$fn__5823
+                                                                             invoke
+                                                                             "core.clj"
+                                                                             2047]
+                                                                            [clojure.lang.AFn
+                                                                             call
+                                                                             "AFn.java"
+                                                                             18]
+                                                                            [java.util.concurrent.FutureTask
+                                                                             run
+                                                                             "FutureTask.java"
+                                                                             317]
+                                                                            [java.util.concurrent.ThreadPoolExecutor
+                                                                             runWorker
+                                                                             "ThreadPoolExecutor.java"
+                                                                             1144]
+                                                                            [java.util.concurrent.ThreadPoolExecutor$Worker
+                                                                             run
+                                                                             "ThreadPoolExecutor.java"
+                                                                             642]
+                                                                            [java.lang.Thread
+                                                                             run
+                                                                             "Thread.java"
+                                                                             1575]],
+                                                                    :cause "throw+: {:type :rpc-error, :code 13, :name :crash, :definite? false, :body {:code 13, :in_reply_to 1, :text \"failed to write session: RPCError(KeyDoesNotExist, \\\"key does not exist\\\")\", :type \"error\"}}",
+                                                                    :data {:type :rpc-error,
+                                                                           :code 13,
+                                                                           :name :crash,
+                                                                           :definite? false,
+                                                                           :body {:code 13,
+                                                                                  :in_reply_to 1,
+                                                                                  :text "failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")",
+                                                                                  :type "error"}}},
+                                                        :error "indeterminate: throw+: {:type :rpc-error, :code 13, :name :crash, :definite? false, :body {:code 13, :in_reply_to 1, :text \"failed to write session: RPCError(KeyDoesNotExist, \\\"key does not exist\\\")\", :type \"error\"}}"}})},
+ :stats {:valid? true,
+         :count 1677,
+         :ok-count 1676,
+         :fail-count 0,
+         :info-count 1,
+         :by-f {:add {:valid? true,
+                      :count 585,
+                      :ok-count 585,
+                      :fail-count 0,
+                      :info-count 0},
+                :read {:valid? true,
+                       :count 1092,
+                       :ok-count 1091,
+                       :fail-count 0,
+                       :info-count 1}}},
+ :availability {:valid? true, :ok-fraction 0.9994037},
+ :net {:all {:send-count 7884,
+             :recv-count 7884,
+             :msg-count 7884,
+             :msgs-per-op 4.7012525},
+       :clients {:send-count 3360, :recv-count 3360, :msg-count 3360},
+       :servers {:send-count 4524,
+                 :recv-count 4524,
+                 :msg-count 4524,
+                 :msgs-per-op 2.6976745},
+       :valid? true},
+ :workload {:valid? false,
+            :errors (#jepsen.history.Op{:index 3359,
+                                        :time 30028270958,
+                                        :type :ok,
+                                        :process 1,
+                                        :f :read,
+                                        :value 318,
+                                        :final? true}
+                     #jepsen.history.Op{:index 3360,
+                                        :time 30028360791,
+                                        :type :ok,
+                                        :process 0,
+                                        :f :read,
+                                        :value 571,
+                                        :final? true}
+                     #jepsen.history.Op{:index 3361,
+                                        :time 30028390750,
+                                        :type :ok,
+                                        :process 5,
+                                        :f :read,
+                                        :value 306,
+                                        :final? true}),
+            :final-reads (318 571 306),
+            :acceptable ([1195 1195])},
+ :valid? false}

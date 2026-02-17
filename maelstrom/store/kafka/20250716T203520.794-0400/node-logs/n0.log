@@ -1,0 +1,15 @@
+2025/07/16 20:35:21 Received {c0 n0 {"type":"init","node_id":"n0","node_ids":["n0"],"msg_id":1}}
+2025/07/16 20:35:21 Node n0 initialized
+2025/07/16 20:35:21 Sent {"src":"n0","dest":"c0","body":{"in_reply_to":1,"type":"init_ok"}}
+2025/07/16 20:35:21 Received {c2 n0 {"key":"9","msg":1,"type":"send","msg_id":1}}
+panic: interface conversion: interface {} is nil, not float64
+
+goroutine 4 [running]:
+main.handleAdd({{0x1400000e308, 0x2}, {0x1400000e30a, 0x2}, {0x14000016120, 0x2c, 0x30}})
+	/Users/anandtrehan/flyio_challenges/maelstrom-kafka/main.go:37 +0x3d0
+github.com/jepsen-io/maelstrom/demo/go.(*Node).handleMessage(0x10275e1c0, 0x0?, {{0x1400000e308, 0x2}, {0x1400000e30a, 0x2}, {0x14000016120, 0x2c, 0x30}})
+	/Users/anandtrehan/go/pkg/mod/github.com/jepsen-io/maelstrom/demo/go@v0.0.0-20250204203845-8263d1dd2b7a/node.go:151 +0x68
+github.com/jepsen-io/maelstrom/demo/go.(*Node).Run.func2()
+	/Users/anandtrehan/go/pkg/mod/github.com/jepsen-io/maelstrom/demo/go@v0.0.0-20250204203845-8263d1dd2b7a/node.go:129 +0x74
+created by github.com/jepsen-io/maelstrom/demo/go.(*Node).Run in goroutine 1
+	/Users/anandtrehan/go/pkg/mod/github.com/jepsen-io/maelstrom/demo/go@v0.0.0-20250204203845-8263d1dd2b7a/node.go:127 +0x460

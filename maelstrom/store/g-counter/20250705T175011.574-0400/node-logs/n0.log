@@ -1,0 +1,1287 @@
+2025/07/05 17:50:13 Received {c2 n0 {"type":"init","node_id":"n0","node_ids":["n0","n1","n2"],"msg_id":1}}
+2025/07/05 17:50:13 Node n0 initialized
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c2","body":{"in_reply_to":1,"type":"init_ok"}}
+2025/07/05 17:50:13 Received {c8 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":1,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":1}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c8", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c8","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c9 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":2,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":2}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c9", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c9","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c12 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":3,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":3}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c12", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c12","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c13 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":4,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":4}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c13", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c13","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c16 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":5,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":5}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c16", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c16","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c17 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":6,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":6}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c17", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c17","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c20 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":7,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":7}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c20", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c20","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c21 n0 {"delta":0,"type":"add","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":8,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":8}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c21", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x30, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c21","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c24 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":9,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":9}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c24", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c24","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c25 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":10,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":10}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c25", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c25","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c28 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":11,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":11}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c28", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c28","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c29 n0 {"delta":4,"type":"add","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":12,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":12}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c29", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x34, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c29","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c32 n0 {"delta":4,"type":"add","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":13,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":13}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c32", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x34, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c32","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c33 n0 {"delta":3,"type":"add","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":14,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":14}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c33", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x33, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c33","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c36 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":15,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":15}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c36", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c36","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c37 n0 {"delta":1,"type":"add","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":16,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":16}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c37", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x31, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c37","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c40 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":17,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":17}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c40", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c40","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c41 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":18,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":18}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c41", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c41","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c44 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":19,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":19}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c44", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c44","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c45 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":20,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":20}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c45", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c45","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c48 n0 {"delta":4,"type":"add","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":21,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":21}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c48", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x34, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c48","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c52 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":22,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":22}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c52", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c52","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c53 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":23,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":23}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c53", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c53","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c56 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":24,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":24}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c56", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c56","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c57 n0 {"delta":3,"type":"add","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":25,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":25}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c57", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x33, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c57","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c60 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":26,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":26}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c60", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c60","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c61 n0 {"delta":1,"type":"add","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":27,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":27}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c61", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x31, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c61","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:13 Received {c64 n0 {"delta":4,"type":"add","msg_id":1}}
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":28,"type":"read"}}
+2025/07/05 17:50:13 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":28}}
+2025/07/05 17:50:13 Exception handling maelstrom.Message{Src:"c64", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x34, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:13 Sent {"src":"n0","dest":"c64","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c65 n0 {"delta":3,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":29,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":29}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c65", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x33, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c65","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c68 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":30,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":30}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c68", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c68","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c69 n0 {"delta":2,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":31,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":31}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c69", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x32, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c69","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c72 n0 {"delta":2,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":32,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":32}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c72", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x32, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c72","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c73 n0 {"delta":1,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":33,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":33}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c73", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x31, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c73","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c76 n0 {"delta":2,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":34,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":34}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c76", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x32, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c76","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c77 n0 {"delta":1,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":35,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":35}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c77", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x31, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c77","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c80 n0 {"delta":4,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":36,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":36}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c80", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x34, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c80","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c81 n0 {"delta":4,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":37,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":37}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c81", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x34, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c81","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c84 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":38,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":38}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c84", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c84","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c85 n0 {"delta":0,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":39,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":39}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c85", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x30, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c85","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c88 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":40,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":40}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c88", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c88","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c89 n0 {"delta":1,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":41,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":41}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c89", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x31, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c89","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c92 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":42,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":42}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c92", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c92","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c93 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":43,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":43}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c93", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c93","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c96 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":44,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":44}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c96", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c96","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c97 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":45,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":45}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c97", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c97","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c100 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":46,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":46}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c100", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c100","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c101 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":47,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":47}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c101", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c101","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c104 n0 {"delta":1,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":48,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":48}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c104", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x31, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c104","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c105 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":49,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":49}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c105", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c105","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c108 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":50,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":50}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c108", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c108","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c109 n0 {"delta":2,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":51,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":51}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c109", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x32, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c109","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c112 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":52,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":52}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c112", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c112","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c113 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":53,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":53}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c113", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c113","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c116 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":54,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":54}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c116", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c116","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c117 n0 {"delta":4,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":55,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":55}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c117", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x34, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c117","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c120 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":56,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":56}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c120", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c120","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c121 n0 {"delta":1,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":57,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":57}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c121", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x31, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c121","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c124 n0 {"delta":1,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":58,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":58}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c124", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x31, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c124","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c128 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":59,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":59}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c128", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c128","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c129 n0 {"delta":0,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":60,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":60}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c129", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x30, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c129","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c132 n0 {"delta":1,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":61,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":61}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c132", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x31, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c132","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c133 n0 {"delta":2,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":62,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":62}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c133", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x32, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c133","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c136 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":63,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":63}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c136", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c136","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c137 n0 {"delta":3,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":64,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":64}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c137", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x33, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c137","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c140 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":65,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":65}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c140", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c140","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c141 n0 {"delta":2,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":66,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":66}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c141", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x32, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c141","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c144 n0 {"delta":1,"type":"add","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":67,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":67}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c144", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x31, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c144","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c145 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":68,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":68}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c145", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c145","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c148 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":69,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":69}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c148", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c148","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c149 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":70,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":70}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c149", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c149","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c152 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":71,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":71}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c152", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c152","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:14 Received {c153 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":72,"type":"read"}}
+2025/07/05 17:50:14 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":72}}
+2025/07/05 17:50:14 Exception handling maelstrom.Message{Src:"c153", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:14 Sent {"src":"n0","dest":"c153","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c156 n0 {"delta":3,"type":"add","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":73,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":73}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c156", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x33, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c156","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c157 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":74,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":74}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c157", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c157","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c160 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":75,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":75}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c160", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c160","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c161 n0 {"delta":0,"type":"add","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":76,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":76}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c161", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x30, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c161","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c164 n0 {"delta":3,"type":"add","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":77,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":77}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c164", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x33, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c164","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c165 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":78,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":78}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c165", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c165","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c168 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":79,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":79}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c168", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c168","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c169 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":80,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":80}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c169", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c169","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c172 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":81,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":81}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c172", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c172","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c173 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":82,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":82}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c173", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c173","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c176 n0 {"delta":4,"type":"add","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":83,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":83}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c176", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x34, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c176","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c177 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":84,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":84}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c177", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c177","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c180 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":85,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":85}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c180", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c180","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c181 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":86,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":86}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c181", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c181","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c184 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":87,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":87}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c184", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c184","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c185 n0 {"delta":2,"type":"add","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":88,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":88}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c185", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x32, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c185","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c188 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":89,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":89}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c188", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c188","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c189 n0 {"delta":2,"type":"add","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":90,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":90}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c189", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x32, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c189","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c192 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":91,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":91}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c192", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c192","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c193 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":92,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":92}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c193", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c193","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c196 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":93,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":93}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c196", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c196","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c197 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":94,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":94}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c197", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c197","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c200 n0 {"delta":4,"type":"add","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":95,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":95}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c200", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x34, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c200","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c201 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":96,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":96}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c201", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c201","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c204 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":97,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":97}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c204", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c204","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c205 n0 {"delta":4,"type":"add","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":98,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":98}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c205", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x34, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c205","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c208 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":99,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":99}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c208", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c208","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c209 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":100,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":100}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c209", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c209","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c212 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":101,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":101}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c212", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c212","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c213 n0 {"delta":2,"type":"add","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":102,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":102}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c213", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x32, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c213","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c216 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":103,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":103}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c216", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c216","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c217 n0 {"delta":1,"type":"add","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":104,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":104}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c217", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x31, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c217","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c220 n0 {"delta":3,"type":"add","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":105,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":105}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c220", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x33, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c220","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c221 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":106,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":106}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c221", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c221","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c224 n0 {"delta":4,"type":"add","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":107,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":107}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c224", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x34, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c224","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c225 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":108,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":108}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c225", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c225","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c228 n0 {"delta":3,"type":"add","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":109,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":109}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c228", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x33, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c228","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c229 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":110,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":110}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c229", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c229","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c232 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":111,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":111}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c232", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c232","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c233 n0 {"delta":0,"type":"add","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":112,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":112}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c233", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x30, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c233","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c236 n0 {"delta":2,"type":"add","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":113,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":113}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c236", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x32, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c236","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c237 n0 {"delta":4,"type":"add","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":114,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":114}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c237", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x34, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c237","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:15 Received {c240 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":115,"type":"read"}}
+2025/07/05 17:50:15 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":115}}
+2025/07/05 17:50:15 Exception handling maelstrom.Message{Src:"c240", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:15 Sent {"src":"n0","dest":"c240","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c241 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":116,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":116}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c241", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c241","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c244 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":117,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":117}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c244", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c244","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c245 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":118,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":118}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c245", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c245","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c248 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":119,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":119}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c248", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c248","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c249 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":120,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":120}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c249", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c249","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c252 n0 {"delta":0,"type":"add","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":121,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":121}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c252", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x30, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c252","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c253 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":122,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":122}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c253", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c253","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c256 n0 {"delta":2,"type":"add","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":123,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":123}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c256", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x32, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c256","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c257 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":124,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":124}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c257", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c257","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c260 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":125,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":125}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c260", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c260","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c261 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":126,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":126}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c261", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c261","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c264 n0 {"delta":4,"type":"add","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":127,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":127}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c264", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x34, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c264","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c265 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":128,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":128}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c265", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c265","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c268 n0 {"delta":1,"type":"add","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":129,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":129}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c268", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x31, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c268","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c269 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":130,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":130}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c269", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c269","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c272 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":131,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":131}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c272", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c272","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c273 n0 {"delta":3,"type":"add","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":132,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":132}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c273", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x33, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c273","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c276 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":133,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":133}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c276", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c276","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c277 n0 {"delta":3,"type":"add","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":134,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":134}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c277", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x33, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c277","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c280 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":135,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":135}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c280", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c280","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c281 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":136,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":136}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c281", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c281","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c284 n0 {"delta":0,"type":"add","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":137,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":137}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c284", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x30, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c284","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c285 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":138,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":138}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c285", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c285","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c288 n0 {"delta":0,"type":"add","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":139,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":139}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c288", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x30, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c288","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c289 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":140,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":140}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c289", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c289","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c292 n0 {"delta":3,"type":"add","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":141,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":141}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c292", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x33, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c292","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c293 n0 {"delta":0,"type":"add","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":142,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":142}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c293", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x30, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c293","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c296 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":143,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":143}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c296", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c296","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c297 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":144,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":144}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c297", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c297","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c300 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":145,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":145}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c300", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c300","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c301 n0 {"delta":4,"type":"add","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":146,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":146}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c301", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x34, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c301","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c304 n0 {"delta":3,"type":"add","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":147,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":147}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c304", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x33, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c304","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c305 n0 {"delta":3,"type":"add","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":148,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":148}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c305", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x33, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c305","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c308 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":149,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":149}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c308", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c308","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c309 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":150,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":150}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c309", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c309","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c312 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":151,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":151}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c312", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c312","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c313 n0 {"delta":3,"type":"add","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":152,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":152}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c313", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x33, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c313","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c316 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":153,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":153}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c316", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c316","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c317 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":154,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":154}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c317", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c317","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c320 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":155,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":155}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c320", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c320","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c321 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":156,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":156}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c321", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c321","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c324 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":157,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":157}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c324", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c324","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c325 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":158,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":158}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c325", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c325","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:16 Received {c328 n0 {"delta":0,"type":"add","msg_id":1}}
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":159,"type":"read"}}
+2025/07/05 17:50:16 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":159}}
+2025/07/05 17:50:16 Exception handling maelstrom.Message{Src:"c328", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x30, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:16 Sent {"src":"n0","dest":"c328","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c329 n0 {"delta":0,"type":"add","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":160,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":160}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c329", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x30, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c329","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c332 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":161,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":161}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c332", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c332","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c333 n0 {"delta":3,"type":"add","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":162,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":162}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c333", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x33, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c333","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c336 n0 {"delta":2,"type":"add","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":163,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":163}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c336", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x32, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c336","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c337 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":164,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":164}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c337", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c337","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c340 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":165,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":165}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c340", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c340","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c341 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":166,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":166}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c341", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c341","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c344 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":167,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":167}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c344", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c344","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c345 n0 {"delta":2,"type":"add","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":168,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":168}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c345", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x32, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c345","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c348 n0 {"delta":0,"type":"add","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":169,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":169}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c348", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x30, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c348","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c349 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":170,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":170}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c349", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c349","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c352 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":171,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":171}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c352", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c352","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c353 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":172,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":172}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c353", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c353","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c356 n0 {"delta":4,"type":"add","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":173,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":173}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c356", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x34, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c356","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c357 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":174,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":174}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c357", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c357","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c360 n0 {"delta":3,"type":"add","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":175,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":175}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c360", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x33, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c360","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c361 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":176,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":176}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c361", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c361","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c364 n0 {"delta":0,"type":"add","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":177,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":177}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c364", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x30, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c364","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c365 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":178,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":178}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c365", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c365","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c368 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":179,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":179}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c368", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c368","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c369 n0 {"delta":2,"type":"add","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":180,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":180}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c369", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x32, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c369","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c372 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":181,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":181}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c372", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c372","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c373 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":182,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":182}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c373", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c373","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c376 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":183,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":183}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c376", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c376","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c377 n0 {"delta":1,"type":"add","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":184,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":184}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c377", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x31, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c377","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c380 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":185,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":185}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c380", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c380","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c381 n0 {"delta":1,"type":"add","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":186,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":186}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c381", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x31, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c381","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c384 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":187,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":187}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c384", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c384","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c388 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":188,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":188}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c388", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c388","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c389 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":189,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":189}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c389", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c389","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c392 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":190,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":190}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c392", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c392","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c393 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":191,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":191}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c393", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c393","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c396 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":192,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":192}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c396", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c396","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c397 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":193,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":193}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c397", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c397","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c400 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":194,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":194}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c400", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c400","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c401 n0 {"delta":1,"type":"add","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":195,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":195}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c401", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x31, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c401","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c404 n0 {"delta":0,"type":"add","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":196,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":196}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c404", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x30, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c404","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c405 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":197,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":197}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c405", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c405","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c408 n0 {"delta":3,"type":"add","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":198,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":198}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c408", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x33, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c408","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c409 n0 {"delta":2,"type":"add","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":199,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":199}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c409", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x32, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c409","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:17 Received {c412 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":200,"type":"read"}}
+2025/07/05 17:50:17 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":200}}
+2025/07/05 17:50:17 Exception handling maelstrom.Message{Src:"c412", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:17 Sent {"src":"n0","dest":"c412","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:18 Received {c413 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":201,"type":"read"}}
+2025/07/05 17:50:18 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":201}}
+2025/07/05 17:50:18 Exception handling maelstrom.Message{Src:"c413", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"c413","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:18 Received {c416 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":202,"type":"read"}}
+2025/07/05 17:50:18 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":202}}
+2025/07/05 17:50:18 Exception handling maelstrom.Message{Src:"c416", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"c416","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:18 Received {c417 n0 {"delta":0,"type":"add","msg_id":1}}
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":203,"type":"read"}}
+2025/07/05 17:50:18 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":203}}
+2025/07/05 17:50:18 Exception handling maelstrom.Message{Src:"c417", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x30, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"c417","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:18 Received {c420 n0 {"delta":0,"type":"add","msg_id":1}}
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":204,"type":"read"}}
+2025/07/05 17:50:18 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":204}}
+2025/07/05 17:50:18 Exception handling maelstrom.Message{Src:"c420", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x30, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"c420","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:18 Received {c424 n0 {"delta":4,"type":"add","msg_id":1}}
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":205,"type":"read"}}
+2025/07/05 17:50:18 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":205}}
+2025/07/05 17:50:18 Exception handling maelstrom.Message{Src:"c424", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x34, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"c424","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:18 Received {c427 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":206,"type":"read"}}
+2025/07/05 17:50:18 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":206}}
+2025/07/05 17:50:18 Exception handling maelstrom.Message{Src:"c427", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"c427","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:18 Received {c428 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":207,"type":"read"}}
+2025/07/05 17:50:18 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":207}}
+2025/07/05 17:50:18 Exception handling maelstrom.Message{Src:"c428", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"c428","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:18 Received {c431 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":208,"type":"read"}}
+2025/07/05 17:50:18 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":208}}
+2025/07/05 17:50:18 Exception handling maelstrom.Message{Src:"c431", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"c431","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:18 Received {c432 n0 {"delta":2,"type":"add","msg_id":1}}
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":209,"type":"read"}}
+2025/07/05 17:50:18 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":209}}
+2025/07/05 17:50:18 Exception handling maelstrom.Message{Src:"c432", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x64, 0x65, 0x6c, 0x74, 0x61, 0x22, 0x3a, 0x32, 0x2c, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x61, 0x64, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"c432","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:18 Received {c435 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":210,"type":"read"}}
+2025/07/05 17:50:18 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":210}}
+2025/07/05 17:50:18 Exception handling maelstrom.Message{Src:"c435", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"c435","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:18 Received {c436 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":211,"type":"read"}}
+2025/07/05 17:50:18 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":211}}
+2025/07/05 17:50:18 Exception handling maelstrom.Message{Src:"c436", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"c436","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:18 Received {c439 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":212,"type":"read"}}
+2025/07/05 17:50:18 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":212}}
+2025/07/05 17:50:18 Exception handling maelstrom.Message{Src:"c439", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"c439","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:18 Received {c440 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":213,"type":"read"}}
+2025/07/05 17:50:18 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":213}}
+2025/07/05 17:50:18 Exception handling maelstrom.Message{Src:"c440", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"c440","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}
+2025/07/05 17:50:18 Received {c443 n0 {"type":"read","msg_id":1}}
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"seq-kv","body":{"key":"n0","msg_id":214,"type":"read"}}
+2025/07/05 17:50:18 Received {seq-kv n0 {"type":"error","code":20,"text":"key does not exist","in_reply_to":214}}
+2025/07/05 17:50:18 Exception handling maelstrom.Message{Src:"c443", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x72, 0x65, 0x61, 0x64, 0x22, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
+failed to write session: RPCError(KeyDoesNotExist, "key does not exist")
+2025/07/05 17:50:18 Sent {"src":"n0","dest":"c443","body":{"code":13,"in_reply_to":1,"text":"failed to write session: RPCError(KeyDoesNotExist, \"key does not exist\")","type":"error"}}

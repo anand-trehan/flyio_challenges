@@ -1,0 +1,11 @@
+2025/06/27 20:52:22 Received {c4 n0 {"type":"init","node_id":"n0","node_ids":["n0","n1","n2","n3","n4"],"msg_id":1}}
+2025/06/27 20:52:22 Node n0 initialized
+2025/06/27 20:52:22 Sent {"src":"n0","dest":"c4","body":{"in_reply_to":1,"type":"init_ok"}}
+2025/06/27 20:52:22 Received {c5 n0 {"type":"topology","topology":{"n0":["n3","n1"],"n1":["n4","n2","n0"],"n2":["n1"],"n3":["n0","n4"],"n4":["n1","n3"]},"msg_id":1}}
+2025/06/27 20:52:22 Sent {"src":"n0","dest":"c5","body":{"in_reply_to":1,"type":"topology_ok"}}
+2025/06/27 20:52:22 Received {c10 n0 {"type":"broadcast","message":0,"msg_id":1}}
+2025/06/27 20:52:27 Received {c15 n0 {"type":"broadcast","message":5,"msg_id":1}}
+2025/06/27 20:52:32 Received {c20 n0 {"type":"broadcast","message":10,"msg_id":1}}
+2025/06/27 20:52:37 Received {c25 n0 {"type":"broadcast","message":15,"msg_id":1}}
+2025/06/27 20:52:54 Received {c31 n0 {"type":"read","msg_id":1}}
+2025/06/27 20:52:54 Sent {"src":"n0","dest":"c31","body":{"in_reply_to":1,"messages":[],"type":"read_ok"}}

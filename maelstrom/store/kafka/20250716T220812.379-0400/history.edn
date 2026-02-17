@@ -1,0 +1,20 @@
+{:index 0, :time 14569625, :type :invoke, :process 0, :f :send, :value [[:send "9" 1]]}
+{:index 1, :time 17198375, :type :invoke, :process 1, :f :crash, :value nil}
+{:index 2, :time 18462209, :type :info, :process 1, :f :crash, :value nil}
+{:index 3, :time 18565875, :type :invoke, :process 3, :f :poll, :value [[:poll]]}
+{:index 4, :time 21441625, :type :ok, :process 3, :f :poll, :value [[:poll {}]]}
+{:index 5, :time 22862959, :type :invoke, :process 3, :f :send, :value [[:send "8" 1]]}
+{:index 6, :time 5024198334, :type :info, :process 0, :f :send, :value [[:send "9" 1]], :error :net-timeout}
+{:index 7, :time 5024322959, :type :invoke, :process 2, :f :poll, :value [[:poll]]}
+{:index 8, :time 5027628250, :type :info, :process 3, :f :send, :value [[:send "8" 1]], :error :net-timeout}
+{:index 9, :time 5027823417, :type :invoke, :process 5, :f :send, :value [[:send "9" 2]]}
+{:index 10, :time 10026378667, :type :info, :process 2, :f :poll, :value [[:poll]], :error :net-timeout}
+{:index 11, :time 10026778292, :type :invoke, :process 4, :f :poll, :value [[:poll]]}
+{:index 12, :time 10032557250, :type :info, :process 5, :f :send, :value [[:send "9" 2]], :error :net-timeout}
+{:index 13, :time 10032732209, :type :invoke, :process 7, :f :assign, :value ["9"]}
+{:index 14, :time 15072179875, :type :fail, :process 7, :f :assign, :value ["9"], :error :net-timeout}
+{:index 15, :time 15072874459, :type :info, :process 4, :f :poll, :value [[:poll]], :error :net-timeout}
+{:index 16, :time 15074242959, :type :invoke, :process 6, :f :send, :value [[:send "9" 3]]}
+{:index 17, :time 15078101625, :type :invoke, :process 7, :f :assign, :value ["9"]}
+{:index 18, :time 20082220459, :type :fail, :process 7, :f :assign, :value ["9"], :error :net-timeout}
+{:index 19, :time 20083720584, :type :info, :process 6, :f :send, :value [[:send "9" 3]], :error :net-timeout}

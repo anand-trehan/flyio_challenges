@@ -1,0 +1,63 @@
+{:perf {:latency-graph {:valid? true},
+        :rate-graph {:valid? true},
+        :valid? true},
+ :timeline {:valid? true},
+ :exceptions {:valid? true},
+ :stats {:valid? false,
+         :count 42,
+         :ok-count 22,
+         :fail-count 0,
+         :info-count 20,
+         :by-f {:broadcast {:valid? false,
+                            :count 20,
+                            :ok-count 0,
+                            :fail-count 0,
+                            :info-count 20},
+                :read {:valid? true,
+                       :count 22,
+                       :ok-count 22,
+                       :fail-count 0,
+                       :info-count 0}}},
+ :availability {:valid? true, :ok-fraction 0.52380955},
+ :net {:all {:send-count 84,
+             :recv-count 84,
+             :msg-count 84,
+             :msgs-per-op 2.0},
+       :clients {:send-count 84, :recv-count 84, :msg-count 84},
+       :servers {:send-count 0,
+                 :recv-count 0,
+                 :msg-count 0,
+                 :msgs-per-op 0.0},
+       :valid? true},
+ :workload {:worst-stale (),
+            :duplicated-count 0,
+            :valid? :unknown,
+            :lost-count 0,
+            :lost (),
+            :stable-count 0,
+            :stale-count 0,
+            :stale (),
+            :never-read-count 20,
+            :attempt-count 20,
+            :never-read (0
+                         1
+                         2
+                         3
+                         4
+                         5
+                         6
+                         7
+                         8
+                         9
+                         10
+                         11
+                         12
+                         13
+                         14
+                         15
+                         16
+                         17
+                         18
+                         19),
+            :duplicated {}},
+ :valid? false}
