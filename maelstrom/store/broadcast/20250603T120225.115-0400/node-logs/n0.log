@@ -1,7 +1,0 @@
-2025/06/03 12:02:26 Received {c0 n0 {"type":"init","node_id":"n0","node_ids":["n0"],"msg_id":1}}
-2025/06/03 12:02:26 Node n0 initialized
-2025/06/03 12:02:26 Sent {"src":"n0","dest":"c0","body":{"in_reply_to":1,"type":"init_ok"}}
-2025/06/03 12:02:26 Received {c1 n0 {"type":"topology","topology":{"n0":[]},"msg_id":1}}
-2025/06/03 12:02:26 Exception handling maelstrom.Message{Src:"c1", Dest:"n0", Body:json.RawMessage{0x7b, 0x22, 0x74, 0x79, 0x70, 0x65, 0x22, 0x3a, 0x22, 0x74, 0x6f, 0x70, 0x6f, 0x6c, 0x6f, 0x67, 0x79, 0x22, 0x2c, 0x22, 0x74, 0x6f, 0x70, 0x6f, 0x6c, 0x6f, 0x67, 0x79, 0x22, 0x3a, 0x7b, 0x22, 0x6e, 0x30, 0x22, 0x3a, 0x5b, 0x5d, 0x7d, 0x2c, 0x22, 0x6d, 0x73, 0x67, 0x5f, 0x69, 0x64, 0x22, 0x3a, 0x31, 0x7d}}:
-json: cannot unmarshal number into Go struct field topology_body.msg_id of type string
-2025/06/03 12:02:26 Sent {"src":"n0","dest":"c1","body":{"code":13,"in_reply_to":1,"text":"json: cannot unmarshal number into Go struct field topology_body.msg_id of type string","type":"error"}}

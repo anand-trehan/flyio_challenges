@@ -1,0 +1,33 @@
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+coverage.out
+coverage.html
+
+# Maelstrom / Jepsen test runs
+maelstrom/store/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Env and secrets
+.env
+.env.local
+*.pem
+
+# Logs
+*.log
